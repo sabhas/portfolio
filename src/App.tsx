@@ -5,7 +5,7 @@ import Home from "./pages/home"
 import Experience from "./pages/experience"
 import Projects from "./pages/projects"
 import ProjectDisplay from "./pages/projectDisplay"
-import "./App.css"
+import "./App.scss"
 
 function App() {
   return (
