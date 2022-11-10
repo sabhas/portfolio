@@ -1,7 +1,7 @@
-import ProjectItem from "../components/projectItem"
-import { ProjectList } from "../projectList"
+import ProjectItem from "./projectItem"
+import { ProjectList } from "./projectList"
 
-import "../styles/projects.css"
+import "./projects.scss"
 
 function Projects() {
   return (
