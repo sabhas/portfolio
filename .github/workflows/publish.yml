@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+env:
+  REACT_APP_EMAIL_ACCOUNT_ID: ${{ secrets.REACT_APP_EMAIL_ACCOUNT_ID }}
+  REACT_APP_EMAIL_SERVICE_ID: ${{ secrets.REACT_APP_EMAIL_SERVICE_ID }}
+  REACT_APP_EMAIL_TEMPLATE_ID: ${{ secrets.REACT_APP_EMAIL_TEMPLATE_ID }}
+
 jobs:
   build_and_push_:
     runs-on: ubuntu-latest
